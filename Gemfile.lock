@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 5c5b12922bb292aedfde48e96661be4aa1c40f45
+  revision: bdab143ab3165c06f4f852c2b39ffb59135b2281
   branch: 5-0-stable
   specs:
     actioncable (5.0.2)
@@ -64,8 +64,9 @@ GEM
   specs:
     ansi (1.5.0)
     arel (7.1.4)
-    autoprefixer-rails (6.7.7.1)
+    autoprefixer-rails (6.7.7.2)
       execjs
+    bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.7)
@@ -86,8 +87,8 @@ GEM
     execjs (2.7.0)
     ffi (1.9.18)
     formatador (0.2.5)
-    globalid (0.3.7)
-      activesupport (>= 4.1.0)
+    globalid (0.4.0)
+      activesupport (>= 4.2.0)
     guard (2.14.1)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -191,7 +192,7 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    uglifier (3.1.13)
+    uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     web-console (2.3.0)
       activemodel (>= 4.0)
@@ -206,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (= 3.1.11)
   bootstrap-sass (= 3.3.7)
   coffee-rails (~> 4.1.0)
   guard
